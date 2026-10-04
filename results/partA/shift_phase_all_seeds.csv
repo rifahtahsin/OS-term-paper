@@ -1,0 +1,321 @@
+seed,policy,phase,total_seek,total_regret,optimal_rate
+100,FCFS,sequential,18077,10180,0.14
+100,FCFS,random,70632,59015,0.0
+100,FCFS,bursty,12369,6714,0.0
+100,FCFS,whole timeline,101078,75909,0.04666666666666667
+100,SSTF,sequential,8298,61,0.94
+100,SSTF,random,9987,454,0.92
+100,SSTF,bursty,5455,0,1.0
+100,SSTF,whole timeline,23740,515,0.9533333333333334
+100,SCAN,sequential,9810,1499,0.38
+100,SCAN,random,9983,352,0.26
+100,SCAN,bursty,9157,3726,0.08
+100,SCAN,whole timeline,28950,5577,0.24
+100,CSCAN,sequential,16396,8261,0.18
+100,CSCAN,random,18977,6952,0.04
+100,CSCAN,bursty,14415,8690,0.28
+100,CSCAN,whole timeline,49788,23903,0.16666666666666666
+100,Selector-DT,sequential,8368,92,0.94
+100,Selector-DT,random,9989,452,0.82
+100,Selector-DT,bursty,5455,0,1.0
+100,Selector-DT,whole timeline,23812,544,0.92
+100,Selector-LR,sequential,8542,227,0.92
+100,Selector-LR,random,9987,454,0.92
+100,Selector-LR,bursty,5455,0,1.0
+100,Selector-LR,whole timeline,23984,681,0.9466666666666667
+100,Selector-DT-seqonly,sequential,8368,92,0.94
+100,Selector-DT-seqonly,random,9987,454,0.92
+100,Selector-DT-seqonly,bursty,5455,0,1.0
+100,Selector-DT-seqonly,whole timeline,23810,546,0.9533333333333334
+100,Oracle,sequential,8030,0,1.0
+100,Oracle,random,9548,0,1.0
+100,Oracle,bursty,5630,0,1.0
+100,Oracle,whole timeline,23208,0,1.0
+101,FCFS,sequential,19087,11001,0.04
+101,FCFS,random,67682,56164,0.0
+101,FCFS,bursty,12309,6606,0.0
+101,FCFS,whole timeline,99078,73771,0.013333333333333334
+101,SSTF,sequential,8079,383,0.84
+101,SSTF,random,9745,233,0.9
+101,SSTF,bursty,5651,0,1.0
+101,SSTF,whole timeline,23475,616,0.9133333333333333
+101,SCAN,sequential,9441,1508,0.44
+101,SCAN,random,9953,476,0.2
+101,SCAN,bursty,8557,3138,0.14
+101,SCAN,whole timeline,27951,5122,0.26
+101,CSCAN,sequential,15858,7795,0.2
+101,CSCAN,random,18739,6908,0.06
+101,CSCAN,bursty,13524,7867,0.32
+101,CSCAN,whole timeline,48121,22570,0.19333333333333333
+101,Selector-DT,sequential,8419,751,0.82
+101,Selector-DT,random,9761,249,0.84
+101,Selector-DT,bursty,5651,0,1.0
+101,Selector-DT,whole timeline,23831,1000,0.8866666666666667
+101,Selector-LR,sequential,8079,383,0.84
+101,Selector-LR,random,9745,233,0.9
+101,Selector-LR,bursty,5651,0,1.0
+101,Selector-LR,whole timeline,23475,616,0.9133333333333333
+101,Selector-DT-seqonly,sequential,8079,383,0.84
+101,Selector-DT-seqonly,random,9745,233,0.9
+101,Selector-DT-seqonly,bursty,5651,0,1.0
+101,Selector-DT-seqonly,whole timeline,23475,616,0.9133333333333333
+101,Oracle,sequential,7805,0,1.0
+101,Oracle,random,9513,0,1.0
+101,Oracle,bursty,5707,0,1.0
+101,Oracle,whole timeline,23025,0,1.0
+102,FCFS,sequential,19682,11778,0.06
+102,FCFS,random,67338,55763,0.0
+102,FCFS,bursty,14825,8340,0.0
+102,FCFS,whole timeline,101845,75881,0.02
+102,SSTF,sequential,8412,379,0.88
+102,SSTF,random,9917,221,0.96
+102,SSTF,bursty,6511,0,1.0
+102,SSTF,whole timeline,24840,600,0.9466666666666667
+102,SCAN,sequential,10050,1996,0.36
+102,SCAN,random,9917,448,0.16
+102,SCAN,bursty,8945,2581,0.14
+102,SCAN,whole timeline,28912,5025,0.22
+102,CSCAN,sequential,16415,8274,0.18
+102,CSCAN,random,19059,7284,0.04
+102,CSCAN,bursty,15417,9008,0.22
+102,CSCAN,whole timeline,50891,24566,0.14666666666666667
+102,Selector-DT,sequential,8412,379,0.88
+102,Selector-DT,random,9641,108,0.86
+102,Selector-DT,bursty,6511,0,1.0
+102,Selector-DT,whole timeline,24564,487,0.9133333333333333
+102,Selector-LR,sequential,8412,379,0.88
+102,Selector-LR,random,9917,221,0.96
+102,Selector-LR,bursty,6511,0,1.0
+102,Selector-LR,whole timeline,24840,600,0.9466666666666667
+102,Selector-DT-seqonly,sequential,8412,379,0.88
+102,Selector-DT-seqonly,random,9917,221,0.96
+102,Selector-DT-seqonly,bursty,6511,0,1.0
+102,Selector-DT-seqonly,whole timeline,24840,600,0.9466666666666667
+102,Oracle,sequential,8168,0,1.0
+102,Oracle,random,9697,0,1.0
+102,Oracle,bursty,6511,0,1.0
+102,Oracle,whole timeline,24376,0,1.0
+103,FCFS,sequential,20734,12509,0.06
+103,FCFS,random,66818,54760,0.0
+103,FCFS,bursty,11394,6629,0.0
+103,FCFS,whole timeline,98946,73898,0.02
+103,SSTF,sequential,8313,441,0.86
+103,SSTF,random,10481,876,0.86
+103,SSTF,bursty,5168,0,1.0
+103,SSTF,whole timeline,23962,1317,0.9066666666666666
+103,SCAN,sequential,9743,1620,0.38
+103,SCAN,random,10058,498,0.22
+103,SCAN,bursty,8938,3870,0.12
+103,SCAN,whole timeline,28739,5988,0.24
+103,CSCAN,sequential,16418,7721,0.18
+103,CSCAN,random,19035,7580,0.04
+103,CSCAN,bursty,15015,10206,0.24
+103,CSCAN,whole timeline,50468,25507,0.15333333333333332
+103,Selector-DT,sequential,8313,441,0.86
+103,Selector-DT,random,10352,737,0.76
+103,Selector-DT,bursty,5227,0,1.0
+103,Selector-DT,whole timeline,23892,1178,0.8733333333333333
+103,Selector-LR,sequential,8313,441,0.86
+103,Selector-LR,random,10481,876,0.86
+103,Selector-LR,bursty,5168,0,1.0
+103,Selector-LR,whole timeline,23962,1317,0.9066666666666666
+103,Selector-DT-seqonly,sequential,8313,441,0.86
+103,Selector-DT-seqonly,random,10481,876,0.86
+103,Selector-DT-seqonly,bursty,5320,148,0.98
+103,Selector-DT-seqonly,whole timeline,24114,1465,0.9
+103,Oracle,sequential,8023,0,1.0
+103,Oracle,random,9625,0,1.0
+103,Oracle,bursty,5168,0,1.0
+103,Oracle,whole timeline,22816,0,1.0
+104,FCFS,sequential,21142,13604,0.08
+104,FCFS,random,69441,57048,0.0
+104,FCFS,bursty,12000,6998,0.0
+104,FCFS,whole timeline,102583,77650,0.02666666666666667
+104,SSTF,sequential,8091,70,0.94
+104,SSTF,random,10170,550,0.92
+104,SSTF,bursty,5496,4,0.98
+104,SSTF,whole timeline,23757,624,0.9466666666666667
+104,SCAN,sequential,9593,1632,0.5
+104,SCAN,random,9998,336,0.32
+104,SCAN,bursty,9510,3984,0.06
+104,SCAN,whole timeline,29101,5952,0.29333333333333333
+104,CSCAN,sequential,15961,7916,0.2
+104,CSCAN,random,19001,6901,0.04
+104,CSCAN,bursty,13917,8899,0.3
+104,CSCAN,whole timeline,48879,23716,0.18
+104,Selector-DT,sequential,8091,70,0.94
+104,Selector-DT,random,9747,104,0.82
+104,Selector-DT,bursty,5383,4,0.98
+104,Selector-DT,whole timeline,23221,178,0.9133333333333333
+104,Selector-LR,sequential,8437,487,0.9
+104,Selector-LR,random,10170,550,0.92
+104,Selector-LR,bursty,5496,4,0.98
+104,Selector-LR,whole timeline,24103,1041,0.9333333333333333
+104,Selector-DT-seqonly,sequential,8091,70,0.94
+104,Selector-DT-seqonly,random,10170,550,0.92
+104,Selector-DT-seqonly,bursty,5496,4,0.98
+104,Selector-DT-seqonly,whole timeline,23757,624,0.9466666666666667
+104,Oracle,sequential,7871,0,1.0
+104,Oracle,random,9662,0,1.0
+104,Oracle,bursty,5492,0,1.0
+104,Oracle,whole timeline,23025,0,1.0
+105,FCFS,sequential,16979,9207,0.04
+105,FCFS,random,65897,54305,0.0
+105,FCFS,bursty,13118,7240,0.0
+105,FCFS,whole timeline,95994,70752,0.013333333333333334
+105,SSTF,sequential,8159,152,0.92
+105,SSTF,random,9876,412,0.92
+105,SSTF,bursty,5963,0,1.0
+105,SSTF,whole timeline,23998,564,0.9466666666666667
+105,SCAN,sequential,9607,1687,0.38
+105,SCAN,random,9987,440,0.28
+105,SCAN,bursty,9152,3220,0.08
+105,SCAN,whole timeline,28746,5347,0.24666666666666667
+105,CSCAN,sequential,15975,8603,0.2
+105,CSCAN,random,19011,7059,0.04
+105,CSCAN,bursty,13660,7781,0.32
+105,CSCAN,whole timeline,48646,23443,0.18666666666666668
+105,Selector-DT,sequential,8159,152,0.92
+105,Selector-DT,random,9972,463,0.72
+105,Selector-DT,bursty,5963,0,1.0
+105,Selector-DT,whole timeline,24094,615,0.88
+105,Selector-LR,sequential,8159,152,0.92
+105,Selector-LR,random,9876,412,0.92
+105,Selector-LR,bursty,5963,0,1.0
+105,Selector-LR,whole timeline,23998,564,0.9466666666666667
+105,Selector-DT-seqonly,sequential,8159,152,0.92
+105,Selector-DT-seqonly,random,9876,412,0.92
+105,Selector-DT-seqonly,bursty,5961,76,0.98
+105,Selector-DT-seqonly,whole timeline,23996,640,0.94
+105,Oracle,sequential,7987,0,1.0
+105,Oracle,random,9547,0,1.0
+105,Oracle,bursty,5960,0,1.0
+105,Oracle,whole timeline,23494,0,1.0
+106,FCFS,sequential,18740,10621,0.1
+106,FCFS,random,68571,56677,0.0
+106,FCFS,bursty,12573,7372,0.0
+106,FCFS,whole timeline,99884,74670,0.03333333333333333
+106,SSTF,sequential,8491,705,0.76
+106,SSTF,random,9780,196,0.96
+106,SSTF,bursty,5223,10,0.98
+106,SSTF,whole timeline,23494,911,0.9
+106,SCAN,sequential,9807,1410,0.4
+106,SCAN,random,9988,412,0.22
+106,SCAN,bursty,9115,3683,0.12
+106,SCAN,whole timeline,28910,5505,0.24666666666666667
+106,CSCAN,sequential,16364,7674,0.18
+106,CSCAN,random,19035,6563,0.04
+106,CSCAN,bursty,15146,9827,0.24
+106,CSCAN,whole timeline,50545,24064,0.15333333333333332
+106,Selector-DT,sequential,8511,715,0.74
+106,Selector-DT,random,9784,200,0.8
+106,Selector-DT,bursty,5223,10,0.98
+106,Selector-DT,whole timeline,23518,925,0.84
+106,Selector-LR,sequential,8401,683,0.78
+106,Selector-LR,random,9978,400,0.94
+106,Selector-LR,bursty,5221,10,0.98
+106,Selector-LR,whole timeline,23600,1093,0.9
+106,Selector-DT-seqonly,sequential,8511,715,0.74
+106,Selector-DT-seqonly,random,9780,196,0.96
+106,Selector-DT-seqonly,bursty,5223,10,0.98
+106,Selector-DT-seqonly,whole timeline,23514,921,0.8933333333333333
+106,Oracle,sequential,8063,0,1.0
+106,Oracle,random,9576,0,1.0
+106,Oracle,bursty,5211,0,1.0
+106,Oracle,whole timeline,22850,0,1.0
+107,FCFS,sequential,17620,9690,0.08
+107,FCFS,random,65862,54151,0.0
+107,FCFS,bursty,12392,6762,0.0
+107,FCFS,whole timeline,95874,70603,0.02666666666666667
+107,SSTF,sequential,8098,203,0.86
+107,SSTF,random,10274,681,0.84
+107,SSTF,bursty,5887,25,0.98
+107,SSTF,whole timeline,24259,909,0.8933333333333333
+107,SCAN,sequential,9362,1725,0.42
+107,SCAN,random,10036,350,0.34
+107,SCAN,bursty,8651,3275,0.14
+107,SCAN,whole timeline,28049,5350,0.3
+107,CSCAN,sequential,16020,8356,0.2
+107,CSCAN,random,19053,7544,0.04
+107,CSCAN,bursty,14327,8766,0.28
+107,CSCAN,whole timeline,49400,24666,0.17333333333333334
+107,Selector-DT,sequential,8098,203,0.86
+107,Selector-DT,random,9662,78,0.84
+107,Selector-DT,bursty,5887,25,0.98
+107,Selector-DT,whole timeline,23647,306,0.8933333333333333
+107,Selector-LR,sequential,8098,203,0.86
+107,Selector-LR,random,10274,681,0.84
+107,Selector-LR,bursty,5887,25,0.98
+107,Selector-LR,whole timeline,24259,909,0.8933333333333333
+107,Selector-DT-seqonly,sequential,8098,203,0.86
+107,Selector-DT-seqonly,random,10274,681,0.84
+107,Selector-DT-seqonly,bursty,5887,25,0.98
+107,Selector-DT-seqonly,whole timeline,24259,909,0.8933333333333333
+107,Oracle,sequential,7868,0,1.0
+107,Oracle,random,9774,0,1.0
+107,Oracle,bursty,5807,0,1.0
+107,Oracle,whole timeline,23449,0,1.0
+108,FCFS,sequential,17810,9610,0.14
+108,FCFS,random,70681,58962,0.0
+108,FCFS,bursty,10532,5764,0.0
+108,FCFS,whole timeline,99023,74336,0.04666666666666667
+108,SSTF,sequential,8264,141,0.92
+108,SSTF,random,9843,290,0.92
+108,SSTF,bursty,4610,0,1.0
+108,SSTF,whole timeline,22717,431,0.9466666666666667
+108,SCAN,sequential,10050,2094,0.28
+108,SCAN,random,9945,402,0.32
+108,SCAN,bursty,8724,3961,0.12
+108,SCAN,whole timeline,28719,6457,0.24
+108,CSCAN,sequential,16684,8310,0.16
+108,CSCAN,random,18815,6941,0.06
+108,CSCAN,bursty,13916,9256,0.3
+108,CSCAN,whole timeline,49415,24507,0.17333333333333334
+108,Selector-DT,sequential,8264,141,0.92
+108,Selector-DT,random,9895,337,0.78
+108,Selector-DT,bursty,4610,0,1.0
+108,Selector-DT,whole timeline,22769,478,0.9
+108,Selector-LR,sequential,8264,141,0.92
+108,Selector-LR,random,9843,290,0.92
+108,Selector-LR,bursty,4610,0,1.0
+108,Selector-LR,whole timeline,22717,431,0.9466666666666667
+108,Selector-DT-seqonly,sequential,8264,141,0.92
+108,Selector-DT-seqonly,random,9843,290,0.92
+108,Selector-DT-seqonly,bursty,4610,0,1.0
+108,Selector-DT-seqonly,whole timeline,22717,431,0.9466666666666667
+108,Oracle,sequential,8268,0,1.0
+108,Oracle,random,9543,0,1.0
+108,Oracle,bursty,4610,0,1.0
+108,Oracle,whole timeline,22421,0,1.0
+109,FCFS,sequential,18306,10087,0.08
+109,FCFS,random,65296,53800,0.0
+109,FCFS,bursty,12563,6721,0.0
+109,FCFS,whole timeline,96165,70608,0.02666666666666667
+109,SSTF,sequential,8092,319,0.82
+109,SSTF,random,10038,548,0.9
+109,SSTF,bursty,5722,0,1.0
+109,SSTF,whole timeline,23852,867,0.9066666666666666
+109,SCAN,sequential,9652,1517,0.42
+109,SCAN,random,9947,402,0.26
+109,SCAN,bursty,9097,3137,0.08
+109,SCAN,whole timeline,28696,5056,0.25333333333333335
+109,CSCAN,sequential,15886,7950,0.2
+109,CSCAN,random,19097,7090,0.04
+109,CSCAN,bursty,13903,8062,0.3
+109,CSCAN,whole timeline,48886,23102,0.18
+109,Selector-DT,sequential,8092,319,0.82
+109,Selector-DT,random,9838,319,0.82
+109,Selector-DT,bursty,5722,0,1.0
+109,Selector-DT,whole timeline,23652,638,0.88
+109,Selector-LR,sequential,8092,319,0.82
+109,Selector-LR,random,10038,548,0.9
+109,Selector-LR,bursty,5722,0,1.0
+109,Selector-LR,whole timeline,23852,867,0.9066666666666666
+109,Selector-DT-seqonly,sequential,8420,615,0.8
+109,Selector-DT-seqonly,random,10038,548,0.9
+109,Selector-DT-seqonly,bursty,5910,134,0.98
+109,Selector-DT-seqonly,whole timeline,24368,1297,0.8933333333333333
+109,Oracle,sequential,8148,0,1.0
+109,Oracle,random,9545,0,1.0
+109,Oracle,bursty,5861,0,1.0
+109,Oracle,whole timeline,23554,0,1.0

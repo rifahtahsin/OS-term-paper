@@ -1,0 +1,27 @@
+{
+  "label_optimal_counts_train": {
+    "FCFS": 170,
+    "SSTF": 4027,
+    "SCAN": 1493,
+    "CSCAN": 880
+  },
+  "n_train_windows": 4500,
+  "n_test_windows": 1500,
+  "shift_points": [
+    50,
+    100
+  ],
+  "timeline_windows": 150,
+  "shift_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ]
+}

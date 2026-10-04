@@ -1,0 +1,151 @@
+t,kind,pick,model_conf,explainer_conf,pattern_seen,pick_optimal,explanation
+0,sequential,FCFS,1.0,0.75,sequential,True,"Chose FCFS: requests move mostly one way (100% of moves); the arrival order already runs in a single direction, so reordering gains nothing. Self-rated confidence 0.75."
+1,sequential,SSTF,0.9745958429561201,0.6390476190476191,sequential,True,Chose SSTF: requests move mostly one way (71% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.64.
+2,sequential,CSCAN,0.9976744186046511,0.75,sequential,True,Chose CSCAN: requests move mostly one way (100% of moves); a one-way sweep with a wrap-around gives uniform service. Self-rated confidence 0.75.
+3,sequential,SSTF,0.9834710743801653,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 4.2); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+4,sequential,SSTF,0.9745958429561201,0.9,sequential,True,Chose SSTF: requests move mostly one way (95% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+5,sequential,SSTF,1.0,0.8094736842105263,sequential,True,Chose SSTF: requests move mostly one way (84% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.81.
+6,sequential,SSTF,0.9745958429561201,0.8094736842105263,sequential,True,Chose SSTF: requests move mostly one way (84% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.81.
+7,sequential,SSTF,1.0,0.8796491228070177,sequential,True,Chose SSTF: requests move mostly one way (89% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.88.
+8,sequential,SSTF,0.9745958429561201,0.8796491228070177,sequential,True,Chose SSTF: requests move mostly one way (89% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.88.
+9,sequential,SSTF,0.9781420765027322,0.8796491228070177,sequential,True,Chose SSTF: requests move mostly one way (89% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.88.
+10,sequential,SSTF,0.9745958429561201,0.9,sequential,True,Chose SSTF: requests move mostly one way (100% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+11,sequential,SSTF,0.9781420765027322,0.8094736842105263,sequential,True,Chose SSTF: requests move mostly one way (84% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.81.
+12,sequential,SSTF,0.9745958429561201,0.8094736842105263,sequential,True,Chose SSTF: requests move mostly one way (84% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.81.
+13,sequential,SSTF,1.0,0.8796491228070177,sequential,True,Chose SSTF: requests move mostly one way (89% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.88.
+14,sequential,SSTF,0.9745958429561201,0.8796491228070177,sequential,True,Chose SSTF: requests move mostly one way (89% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.88.
+15,sequential,SSTF,0.9781420765027322,0.9,sequential,False,Chose SSTF: requests move mostly one way (95% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+16,sequential,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.0); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+17,sequential,SSTF,0.9745958429561201,0.6390476190476191,sequential,True,Chose SSTF: requests move mostly one way (71% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.64.
+18,sequential,SSTF,0.9781420765027322,0.7392982456140351,sequential,True,Chose SSTF: requests move mostly one way (79% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.74.
+19,sequential,SSTF,0.6252390057361377,0.8094736842105263,sequential,True,Chose SSTF: requests move mostly one way (84% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.81.
+20,sequential,SSTF,1.0,0.9,sequential,True,Chose SSTF: requests move mostly one way (100% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+21,sequential,SSTF,0.9745958429561201,0.9,sequential,True,Chose SSTF: requests move mostly one way (95% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+22,sequential,SSTF,0.8477272727272728,0.9,sequential,False,Chose SSTF: requests move mostly one way (95% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+23,sequential,SSTF,1.0,0.8796491228070177,sequential,True,Chose SSTF: requests move mostly one way (89% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.88.
+24,sequential,FCFS,1.0,0.75,sequential,False,"Chose FCFS: requests move mostly one way (100% of moves); the arrival order already runs in a single direction, so reordering gains nothing. Self-rated confidence 0.75."
+25,sequential,SSTF,0.9745958429561201,0.9,sequential,True,Chose SSTF: requests move mostly one way (100% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+26,sequential,SSTF,0.8477272727272728,0.9,sequential,True,Chose SSTF: requests move mostly one way (92% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+27,sequential,SSTF,0.8636363636363636,0.814871794871795,sequential,True,Chose SSTF: requests move mostly one way (85% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.81.
+28,sequential,SSTF,0.8477272727272728,0.8295238095238096,sequential,True,Chose SSTF: requests move mostly one way (86% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.83.
+29,sequential,SSTF,0.8636363636363636,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.2); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+30,sequential,SSTF,0.8477272727272728,0.9,sequential,True,Chose SSTF: requests move mostly one way (92% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+31,sequential,SSTF,1.0,0.9,sequential,True,Chose SSTF: requests move mostly one way (95% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+32,sequential,SSTF,0.8477272727272728,0.8094736842105263,sequential,True,Chose SSTF: requests move mostly one way (84% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.81.
+33,sequential,SSTF,0.8477272727272728,0.9,sequential,True,Chose SSTF: requests move mostly one way (100% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+34,sequential,SSTF,0.6252390057361377,0.8094736842105263,sequential,True,Chose SSTF: requests move mostly one way (84% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.81.
+35,sequential,SSTF,0.8477272727272728,0.9,sequential,True,Chose SSTF: requests move mostly one way (95% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+36,sequential,SSTF,1.0,0.8796491228070177,sequential,True,Chose SSTF: requests move mostly one way (89% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.88.
+37,sequential,SSTF,0.9745958429561201,0.9,sequential,True,Chose SSTF: requests move mostly one way (95% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+38,sequential,SSTF,0.9781420765027322,0.6691228070175439,sequential,True,Chose SSTF: requests move mostly one way (74% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.67.
+39,sequential,FCFS,1.0,0.75,sequential,True,"Chose FCFS: requests move mostly one way (100% of moves); the arrival order already runs in a single direction, so reordering gains nothing. Self-rated confidence 0.75."
+40,sequential,SSTF,0.8477272727272728,0.6866666666666668,sequential,True,Chose SSTF: requests move mostly one way (75% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.69.
+41,sequential,SSTF,0.9745958429561201,0.8094736842105263,sequential,True,Chose SSTF: requests move mostly one way (84% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.81.
+42,sequential,CSCAN,0.9976744186046511,0.7372807017543861,sequential,True,Chose CSCAN: requests move mostly one way (89% of moves); a one-way sweep with a wrap-around gives uniform service. Self-rated confidence 0.74.
+43,sequential,SSTF,0.9745958429561201,0.8718518518518519,sequential,True,Chose SSTF: requests move mostly one way (89% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.87.
+44,sequential,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.0); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+45,sequential,SSTF,0.9745958429561201,0.9,sequential,True,Chose SSTF: requests move mostly one way (92% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+46,sequential,SSTF,0.9781420765027322,0.8295238095238096,sequential,True,Chose SSTF: requests move mostly one way (86% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.83.
+47,sequential,SSTF,1.0,0.9,sequential,True,Chose SSTF: requests move mostly one way (92% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+48,sequential,SSTF,0.9745958429561201,0.9,sequential,True,Chose SSTF: requests move mostly one way (95% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+49,sequential,SSTF,1.0,0.9,sequential,True,Chose SSTF: requests move mostly one way (95% of moves); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+50,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 65 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+51,random,SSTF,0.9078947368421053,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 84 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+52,random,SCAN,0.7257142857142858,0.7,random,False,Chose SCAN: requests are spread across the disk (mean jump 92 cyl.); one sweep in the current direction covers the requests without back-tracking. Self-rated confidence 0.70.
+53,random,SCAN,0.7257142857142858,0.7,random,True,Chose SCAN: requests are spread across the disk (mean jump 76 cyl.); one sweep in the current direction covers the requests without back-tracking. Self-rated confidence 0.70.
+54,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 75 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+55,random,SSTF,0.9078947368421053,0.6766534426518557,random,True,Chose SSTF: requests are spread across the disk (mean jump 57 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.68.
+56,random,SSTF,0.6252390057361377,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+57,random,SCAN,0.7257142857142858,0.7,random,False,Chose SCAN: requests are spread across the disk (mean jump 91 cyl.); one sweep in the current direction covers the requests without back-tracking. Self-rated confidence 0.70.
+58,random,SCAN,0.7257142857142858,0.7,random,False,Chose SCAN: requests are spread across the disk (mean jump 82 cyl.); one sweep in the current direction covers the requests without back-tracking. Self-rated confidence 0.70.
+59,random,SSTF,0.9078947368421053,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+60,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 68 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+61,random,SSTF,0.9078947368421053,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 71 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+62,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 77 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+63,random,SCAN,0.7257142857142858,0.7,random,True,Chose SCAN: requests are spread across the disk (mean jump 82 cyl.); one sweep in the current direction covers the requests without back-tracking. Self-rated confidence 0.70.
+64,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 69 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+65,random,SSTF,0.6252390057361377,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+66,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 81 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+67,random,SSTF,0.9078947368421053,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 78 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+68,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 91 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+69,random,SSTF,0.6252390057361377,0.6636057480384377,random,True,Chose SSTF: requests are spread across the disk (mean jump 55 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.66.
+70,random,SSTF,0.6252390057361377,0.6681900731728818,random,True,Chose SSTF: requests are spread across the disk (mean jump 56 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.67.
+71,random,SSTF,0.9078947368421053,0.7,random,False,Chose SSTF: requests are spread across the disk (mean jump 61 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+72,random,SSTF,0.6252390057361377,0.7,random,False,Chose SSTF: requests are spread across the disk (mean jump 68 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+73,random,SSTF,0.6252390057361377,0.7,random,False,Chose SSTF: requests are spread across the disk (mean jump 64 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+74,random,SSTF,0.9078947368421053,0.5987199153663052,random,True,Chose SSTF: requests are spread across the disk (mean jump 46 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.60.
+75,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 84 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+76,random,SSTF,0.9078947368421053,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 77 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+77,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 62 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+78,random,SSTF,0.9142857142857143,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 74 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+79,random,SSTF,0.8636363636363636,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+80,random,SSTF,0.9078947368421053,0.6999277087190336,random,True,Chose SSTF: requests are spread across the disk (mean jump 61 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+81,random,SSTF,0.6252390057361377,0.7,random,False,Chose SSTF: requests are spread across the disk (mean jump 78 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+82,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 75 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+83,random,SSTF,0.9078947368421053,0.6329260336771576,random,True,Chose SSTF: requests are spread across the disk (mean jump 51 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.63.
+84,random,SSTF,0.6252390057361377,0.6773587234417702,random,True,Chose SSTF: requests are spread across the disk (mean jump 57 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.68.
+85,random,SSTF,0.9078947368421053,0.5846142995680155,random,True,Chose SSTF: requests are spread across the disk (mean jump 43 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.58.
+86,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 73 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+87,random,SSTF,0.9078947368421053,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 84 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+88,random,SSTF,0.6252390057361377,0.6625478268535661,random,True,Chose SSTF: requests are spread across the disk (mean jump 55 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.66.
+89,random,SSTF,0.9078947368421053,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 84 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+90,random,SSTF,0.6252390057361377,0.7,random,False,Chose SSTF: requests are spread across the disk (mean jump 62 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+91,random,SSTF,0.9078947368421053,0.7,random,False,Chose SSTF: requests are spread across the disk (mean jump 71 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+92,random,SSTF,0.9078947368421053,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 71 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+93,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 76 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+94,random,SCAN,0.7257142857142858,0.7,random,True,Chose SCAN: requests are spread across the disk (mean jump 81 cyl.); one sweep in the current direction covers the requests without back-tracking. Self-rated confidence 0.70.
+95,random,SSTF,0.6252390057361377,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 76 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+96,random,SSTF,0.9078947368421053,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 69 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+97,random,SSTF,0.6252390057361377,0.6942854623997179,random,True,Chose SSTF: requests are spread across the disk (mean jump 60 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.69.
+98,random,SSTF,0.9142857142857143,0.7,random,True,Chose SSTF: requests are spread across the disk (mean jump 80 cyl.); serving the nearest request first keeps each move short. Self-rated confidence 0.70.
+99,random,SSTF,0.6252390057361377,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+100,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.5); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+101,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.7); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+102,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+103,bursty,SSTF,1.0,0.8378171205406134,bursty,True,Chose SSTF: requests are clustered (gap variation 2.0); serving the nearest request first keeps each move short. Self-rated confidence 0.84.
+104,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.2); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+105,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+106,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.8); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+107,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.5); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+108,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.5); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+109,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.0); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+110,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.0); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+111,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.8); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+112,bursty,CSCAN,1.0,0.5,ambiguous,True,Chose CSCAN: the pattern is mixed; a one-way sweep with a wrap-around gives uniform service. Self-rated confidence 0.50.
+113,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.8); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+114,bursty,SSTF,0.8205128205128205,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.7); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+115,bursty,SSTF,1.0,0.709095840435099,bursty,True,Chose SSTF: requests are clustered (gap variation 1.6); serving the nearest request first keeps each move short. Self-rated confidence 0.71.
+116,bursty,CSCAN,1.0,0.5,ambiguous,True,Chose CSCAN: the pattern is mixed; a one-way sweep with a wrap-around gives uniform service. Self-rated confidence 0.50.
+117,bursty,SSTF,1.0,0.7851243121122105,bursty,True,Chose SSTF: requests are clustered (gap variation 1.8); serving the nearest request first keeps each move short. Self-rated confidence 0.79.
+118,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.4); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+119,bursty,SSTF,1.0,0.8729881031067934,bursty,True,Chose SSTF: requests are clustered (gap variation 2.1); serving the nearest request first keeps each move short. Self-rated confidence 0.87.
+120,bursty,SSTF,1.0,0.6902226941745361,bursty,True,Chose SSTF: requests are clustered (gap variation 1.5); serving the nearest request first keeps each move short. Self-rated confidence 0.69.
+121,bursty,SSTF,1.0,0.620964422205873,bursty,True,Chose SSTF: requests are clustered (gap variation 1.3); serving the nearest request first keeps each move short. Self-rated confidence 0.62.
+122,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.1); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+123,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.7); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+124,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.9); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+125,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.8); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+126,bursty,SSTF,1.0,0.6219954057950535,bursty,True,Chose SSTF: requests are clustered (gap variation 1.3); serving the nearest request first keeps each move short. Self-rated confidence 0.62.
+127,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.3); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+128,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+129,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.5); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+130,bursty,SSTF,1.0,0.66276189523619,bursty,True,Chose SSTF: requests are clustered (gap variation 1.4); serving the nearest request first keeps each move short. Self-rated confidence 0.66.
+131,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.3); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+132,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+133,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+134,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+135,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+136,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+137,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.4); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+138,bursty,SSTF,0.9834710743801653,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.2); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+139,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+140,bursty,SCAN,1.0,0.8558074258065772,bursty,True,Chose SCAN: requests are clustered (gap variation 2.0); one sweep in the current direction covers the requests without back-tracking. Self-rated confidence 0.86.
+141,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+142,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.6); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+143,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.1); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+144,bursty,SSTF,1.0,0.7253451162009448,bursty,True,Chose SSTF: requests are clustered (gap variation 1.6); serving the nearest request first keeps each move short. Self-rated confidence 0.73.
+145,bursty,SSTF,1.0,0.5,ambiguous,True,Chose SSTF: the pattern is mixed; serving the nearest request first keeps each move short. Self-rated confidence 0.50.
+146,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.6); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+147,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.0); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+148,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 3.0); serving the nearest request first keeps each move short. Self-rated confidence 0.90.
+149,bursty,SSTF,1.0,0.9,bursty,True,Chose SSTF: requests are clustered (gap variation 2.6); serving the nearest request first keeps each move short. Self-rated confidence 0.90.

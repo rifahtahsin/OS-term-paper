@@ -1,0 +1,22 @@
+config: C5
+2026-10-04T19:12:34+06:00
+== nproc
+4
+== free -m
+               total        used        free      shared  buff/cache   available
+Mem:            3350        1424        1516          16         645        1926
+Swap:           3861           1        3860
+== swap
+NAME      TYPE SIZE USED PRIO
+/swap.img file 3.8G 1.5M   -1
+== lscpu
+CPU(s):                                  4
+Model name:                              11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+Thread(s) per core:                      1
+Core(s) per socket:                      1
+Socket(s):                               4
+Hypervisor vendor:                       VMware
+== kernel
+7.0.0-31-generic
+== python
+Python 3.14.4
