@@ -1,4 +1,4 @@
-# OS-term-paper — Learned Disk-Scheduler Selector (CSE-307, Track 2) + VM Resource Experiment
+# Adaptive Disk-Scheduler Selection and Resource-Constrained Virtual Machine Performance: An Empirical Study
 
 **Author:** Rifah Tahsin · ID 202414071 · Level 3, Section B · CSE-307 Operating Systems (Part B term paper)
 
